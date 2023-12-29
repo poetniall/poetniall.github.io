@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Niall O&#39;Sullivan</title>
-    <link>https://example.org/</link>
+    <link>https://poetniall.github.io/</link>
     <description>Recent content on Niall O&#39;Sullivan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 Dec 2023 12:46:59 +0000</lastBuildDate><atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Dec 2023 12:46:59 +0000</lastBuildDate><atom:link href="https://poetniall.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Contact</title>
-      <link>https://example.org/contact/</link>
+      <link>https://poetniall.github.io/contact/</link>
       <pubDate>Thu, 28 Dec 2023 18:37:27 +0000</pubDate>
       
-      <guid>https://example.org/contact/</guid>
+      <guid>https://poetniall.github.io/contact/</guid>
       
         <description>If you would like to get in touch for any reason, then please fill in your email and a short message in the contact form below. I can be a bit slow to reply at times but I won&amp;rsquo;t take offence if you want to chase me up on anything.</description>
       
