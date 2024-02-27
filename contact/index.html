@@ -359,23 +359,34 @@
       <h1>Contact</h1>
       <p>If you would like to get in touch for any reason, then please fill in your email and a short message in the contact form below. I can be a bit slow to reply at times but I won&rsquo;t take offence if you want to chase me up on anything.</p>
 
-
-
-<form
-  action="https://formspree.io/f/moqbygrr"
-  method="POST"
->
-  <label>
-    Your email:
-    <input type="email" name="email">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
-  <!-- your other form fields go here -->
-  <button type="submit">Send</button>
-</form>
+<div class="contact-form">
+  <form class="form-style" method="POST" action="" data-toggle="validator">
+    <ul>
+      <li>
+        <label for="username">Name</label>
+        <input class="field-style field-full" type="text" name="username" id="username" placeholder="Name" required>
+      </li>
+      <li>
+        <label for="email">Email</label>
+        <input class="field-style field-full" type="email" id="email" name="email" placeholder="Email" required>
+      </li>
+      <li>
+        <label for="message">Message</label>
+        <textarea class="field-style" name="message" id="message" rows="6" placeholder="Message"></textarea>
+      </li>
+      <li>
+        <div class="g-recaptcha" data-sitekey=""></div>
+      </li>
+      <li>
+        <input class="field-style" type="submit" value="Send" />
+      </li>
+      <li>
+        <input type="text" name="_gotcha" style="display:none" />
+      </li>
+    </ul>
+  </form>
+</div>
+</div>
     <div class="post__footer">
       
 
